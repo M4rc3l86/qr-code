@@ -1,0 +1,26 @@
+/* app.component.css */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 499px;
+  width: 320px;
+  margin-inline: auto;
+  border-radius: 0.625rem;
+  padding-left: var(--space-200);
+  padding-top: var(--space-200);
+  padding-right: var(--space-200);
+  padding-bottom: var(--space-500);
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+  text-align: center;
+  padding: 0 var(--space-200);
+}
+
+img {
+  margin-bottom: var(--space-300);
+}
